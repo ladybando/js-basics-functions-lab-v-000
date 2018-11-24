@@ -38,7 +38,7 @@ let price;
   if (destination <= 400){
     price = 0;
   } else if (401 < destination && destination < 2000){
-    result = 'I will gladly take your thirty bucks.';
+    price = start *.02;
   } else if (feet > 2500){
     result = 'No can do.';
   }
