@@ -23,6 +23,6 @@ return dist;
 
 function distanceTravelledInFeet(hq, block) {
 
-return hq;
+return block;
 
 }
