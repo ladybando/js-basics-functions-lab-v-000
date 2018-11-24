@@ -26,8 +26,8 @@ let dist;
 
 if (hq > block) {
   dist =  ((block - hq) * 264);
-} else if (feet < 42) {
-  dist = ((42 - feet) * 264);
+} else if (block < hq) {
+  dist = ((hq - block) * 264);
 }
 return dist;
 
