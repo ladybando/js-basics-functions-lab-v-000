@@ -5,7 +5,7 @@ let dist;
  
 if (hq > 42) {
   dist =  ((block - hq) * 264) ;
-} else {
-    isAdult = false;
+} else (hq < 42) {
+    dist = ((hq - block) *  264);
 }
 }
