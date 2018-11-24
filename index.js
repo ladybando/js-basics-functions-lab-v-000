@@ -23,9 +23,9 @@ return dist;
 
 function distanceTravelledInFeet(hq, block) {
   let dist; 
-  if block > hq {
+  if (block > hq) {
   dist = ((block-hq) *264);
-  } else if hq > block{
+  } else if (hq > block){
   dist = ((hq-block) *264);
   }
   return dist;
