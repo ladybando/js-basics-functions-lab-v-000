@@ -46,4 +46,3 @@ let price;
   }
   return price;
 }
-}
