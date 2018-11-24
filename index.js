@@ -22,5 +22,5 @@ return dist;
 }
 
 function distanceTravelledInFeet(feet) {
-distanceFromHqInFeet(feet)
+distanceFromHqInFeet(feet) * distanceFromHqInBlocks
 }
