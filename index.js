@@ -32,7 +32,7 @@ function calculatesFarePrice(start, destination){
   let cost = 0.02;
 
  switch (destination <= 400){
-    price = 0;
+    case = 0;
   } else if (401 < destination && destination < 2000){
     price = dist * 0.02;
   } else if (2001 < destination && destination < 2500){
