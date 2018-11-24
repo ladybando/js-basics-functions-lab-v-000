@@ -14,8 +14,8 @@ function distanceFromHqInFeet(feet) {
 let dist;
  
 if (feet > 42) {
-  dist =  ((block - 42) * 264);
-} else if (block < 42) {
+  dist =  ((feet - 42) * 264);
+} else if (feet < 42) {
   dist = ((42 - feet) * 264);
 }
 return dist;
