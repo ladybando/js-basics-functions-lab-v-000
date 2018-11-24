@@ -30,5 +30,5 @@ if (feet > 42) {
   dist = ((42 - feet) * 264);
 }
 return dist;
-}
+
 }
