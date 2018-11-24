@@ -21,6 +21,6 @@ if (feet > 42) {
 return dist;
 }
 
-function distanceTravelledInFeet(feet) {
-distanceFromHqInFeet(feet) * distanceFromHqInBlocks
+function distanceTravelledInFeet(dist) {
+dist = distanceFromHqInFeet(feet) * distanceFromHqInBlocks
 }
