@@ -22,7 +22,7 @@ return dist;
 }
 
 function distanceTravelledInFeet(hq, block) {
-
+dist = ((block-hq) *264)
 return dist;
 
 }
