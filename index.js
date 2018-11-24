@@ -28,7 +28,7 @@ function distanceTravelledInFeet(hq, block) {
 }
 
 function calculatesFarePrice(start, destination){
-  let total = distanceTravelledInFeet(start, end)-400;
+  let total = distanceTravelledInFeet(start, destination)-400;
   let cost = 0.02;
 
   if (destination <= 400){
