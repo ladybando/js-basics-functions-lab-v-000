@@ -40,7 +40,7 @@ let price;
   } else if (401 < destination && destination < 2000){
     price = start *.02;
   } else if (2000 < destination && destination < 2500){
-    price = start *.02; 
+    price = 25; 
   } else if (distance > 2500){
     result = 'cannot travel that far';
   }
