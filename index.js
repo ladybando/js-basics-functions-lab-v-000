@@ -36,7 +36,7 @@ function calculatesFarePrice(start, destination){
 let price;
 
   if (destination <= 400){
-    result = 'This one is on me!';
+    price = 0;
   } else if (2000 < feet && feet < 2500){
     result = 'I will gladly take your thirty bucks.';
   } else if (feet > 2500){
