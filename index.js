@@ -31,7 +31,7 @@ function calculatesFarePrice(start, destination){
   let total = distanceTravelledInFeet(start, end)-400;
   let cost = 0.02;
 
-  if (destination <= 400){
+ switch (destination <= 400){
     price = 0;
   } else if (401 < destination && destination < 2000){
     price = dist * 0.02;
