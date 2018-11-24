@@ -36,7 +36,7 @@ function calculatesFarePrice(start, destination){
   } else if (401 < total && total < 2000){
     return cost * total;
   } else if (2001 < total && total < 2500){
-    price = 25; 
+    return 25; 
   } else if (distance > 2500){
     price = 'cannot travel that far';
   }
