@@ -26,7 +26,7 @@ function distanceTravelledInFeet(hq, block) {
   if block > hq {
   dist = ((block-hq) *264);
   } else if hq > block{
-  
+  dist = ((hq-block) *264);
   }
   return dist;
 
