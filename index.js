@@ -32,3 +32,6 @@ function distanceTravelledInFeet(hq, block) {
 
 }
 
+function calculatesFarePrice(start, destination){
+
+}
