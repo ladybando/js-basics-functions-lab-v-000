@@ -39,8 +39,8 @@ let price;
     price = 0;
   } else if (401 < destination && destination < 2000){
     price = start *.02;
-  } else if (feet > 2500){
-    result = 'No can do.';
+  } else if (distance > 2500){
+    result = 'cannot travel that far';
   }
   return result
 }
