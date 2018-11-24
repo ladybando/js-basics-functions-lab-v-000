@@ -21,7 +21,7 @@ if (feet > 42) {
 return dist;
 }
 
-function distanceTravelledInFeet(dist) {
+function distanceTravelledInFeet(feet) {
 dist ;
 return dist;
 }
