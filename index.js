@@ -33,11 +33,12 @@ function calculatesFarePrice(start, destination){
 
   if (destination <= 400){
     price = 0;
-  } else if (401 < total && total < 2000){
+  } else if (total <= 1600) {
     return cost * total;
-  } else if (2001 < total && total < 2500){
-    return 25; 
-  } else if (distance > 2500){
+  } else if (total <= 2000) {
+    return 25;
+  } else if (total <= 2500 ) {
     return 'cannot travel that far';
   }
+  
 }
