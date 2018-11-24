@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(dist) {
-let dist;
+let block = 42;
  
 if (block > 42) {
   dist =  ((block - 42) * 264);
