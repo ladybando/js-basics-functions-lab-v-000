@@ -7,5 +7,5 @@ if (block > 42) {
 } else if (block < 42) {
   dist = ((42 - block) *  264);
 }
-return dist
+return dist;
 }
