@@ -8,4 +8,5 @@ if (hq > 42) {
 } else if (hq < 42) {
   dist = ((hq - block) *  264);
 }
+return dist
 }
