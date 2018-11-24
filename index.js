@@ -38,7 +38,7 @@ let price;
   if (destination <= 400){
     price = 0;
   } else if (401 < destination && destination < 2000){
-    price = distanceTravelledInFeet() * 0.02;
+    price = dist * 0.02;
   } else if (2001 < destination && destination < 2500){
     price = 25; 
   } else if (distance > 2500){
