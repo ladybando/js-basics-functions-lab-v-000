@@ -31,3 +31,4 @@ function distanceTravelledInFeet(hq, block) {
   return dist;
 
 }
+
