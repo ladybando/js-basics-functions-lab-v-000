@@ -11,14 +11,7 @@ return dist;
 }
 
 function distanceFromHqInFeet(feet) {
-let dist;
- 
-if (feet > 42) {
-  dist =  distanceFromHqInBlocks * 264;
-} else if (feet < 42) {
-  dist = ((42 - feet) * 264);
-}
-return dist;
+feet = distanceFromHqInFeet * 264
 }
 
 function distanceTravelledInFeet(hq, block) {
